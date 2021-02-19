@@ -12,3 +12,9 @@
 #### Introduction to application
 
 I chose the palindrome exercise to demonstrate the tests that I thought about this, and then I am going to improve this script over the defects reported by myself.
+
+#### Dataset for testing
+
+This is the dataset that I use to test the app:
+
+>Pribando
