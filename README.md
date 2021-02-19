@@ -17,4 +17,25 @@ I chose the palindrome exercise to demonstrate the tests that I thought about th
 
 This is the dataset that I use to test the app:
 
->Pribando
+> Name now one man
+> Never odd or even
+> God save Eva's dog
+> No lemon, no melon
+> No, it is opposition
+> Stella won no wallets
+> This phrase is not a palindrome
+> The last Test
+
+#### Defect found
+
+###### Defect 1:
+The function does not remove apostrophes, commas and question marks
+
+#### Posibility of improvements
+
+###### PoI 1: 
+Enter the information with input field
+
+#### New Releases
+
+The news about releases will be notified here
