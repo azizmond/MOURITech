@@ -17,14 +17,14 @@ I chose the palindrome exercise to demonstrate the tests that I thought about th
 
 This is the dataset that I use to test the app:
 
-> Name now one man
-> Never odd or even
-> God save Eva's dog
-> No lemon, no melon
-> No, it is opposition
-> Stella won no wallets
-> This phrase is not a palindrome
-> The last Test
+> Name now one man .
+> Never odd or even .
+> God save Eva's dog .
+> No lemon, no melon .
+> No, it is opposition .
+> Stella won no wallets .
+> This phrase is not a palindrome .
+> The last Test .
 
 #### Defect found
 
