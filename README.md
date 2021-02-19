@@ -1,7 +1,7 @@
 # Mouri Tech - Code Test
 ### Skill Challenge - SDET 100% remote position
 
-1. [Introduction to application] (#introduction-to-application)
+1. Introduction to application
 2. Dataset for testing
 3. Defects found
 4. Posibility of improvements
