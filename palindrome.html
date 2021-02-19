@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+<body>
+    <script>
+        const fra = prompt('Insert a word or a phrase');
+        const palindrome = (fra) => {
+            const lowerC = fra.toLowerCase();
+            const convertArray = lowerC.split("");
+            let noBlanks = "";
+                for (i in convertArray) {
+                    if (convertArray[i] != " ") {
+                        noBlanks += convertArray[i];
+                    }
+                }
+            const newArray = noBlanks.split("");
+            const toReverse = noBlanks.split("").reverse();
+            flag = true;
+                for (i = 0; i < newArray.length; i++) {
+                    if (newArray[i] != toReverse[i]) {
+                        flag = false;
+                        break;
+                    };
+                };
+                if (flag) {
+                    return ("The string IS a palindrome");
+                } else {
+                    return ("The string is NOT a palindrome");
+                }
+        };
+        alert(palindrome(fra));
+    </script>
+</body>
+</html>
